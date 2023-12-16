@@ -14,7 +14,7 @@ public class MenuDemo {
     public void openWomensMenu() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); // for Safari
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); // line sol
         driver.manage().window().maximize();
         driver.get("https://www.next.co.uk");
         driver.findElement(By.id("onetrust-accept-btn-handler")).click();
@@ -22,6 +22,7 @@ public class MenuDemo {
 
         Actions action = new Actions(driver);
         action.moveToElement(womenMenu).perform();
+//        Thread.sleep(2000); // test passed with this and line sol above
         driver.findElement(By.xpath("//*[@id=\"catalogue\"]/div[3]/div[1]/ul/li[2]/a/div/span")).click();
 
     }
