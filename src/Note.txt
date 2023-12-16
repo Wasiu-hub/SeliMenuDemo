@@ -1,2 +1,7 @@
 -- Implementing Actions in Selenium: e.g selenium Webelement Hoover
 -- Check ToolsQA website
+
+-- implicitAwait is a selenium feature
+-- Thread.sleep is a java feature
+
+-- unit testing suitable for validating payment genre
