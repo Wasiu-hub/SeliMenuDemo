@@ -14,8 +14,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <!-- https://mvnrepository.com/artifact/junit/junit -->
     <dependencies>
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -36,7 +36,6 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.5.3</version>
         </dependency>
-
     </dependencies>
 
 </project>
